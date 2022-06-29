@@ -10,21 +10,28 @@
 </head>
 <body>
     
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Leap Year</a>
+    <nav class="navigation">
+        <ul class="list-non-bullet navigation-menu">
+            <li class="list-item-inline">
+                <a class="link nav-active" href="/">Leap Year</a>
             </li>
-            <li>
-                <a href="/prime-number.html">Prime Number</a>
+            <li class="list-item-inline">
+                <a class="link" href="/prime-number.html">Prime Number</a>
             </li>
         </ul>
     </nav>
 
-    <div>
-        <p>Enter your birth year to find out if it is a leap year.</p>
+    <div class="container-center">
+        <h2>Enter your birth year to find out if it is a leap year.(Min 1 and Max 4 digits)</p>
         <input type="number" min="1" max="4">
         <button>Check Leap Year</button>
+
+        <div id="output"></div>
     </div>
+
+    <footer class="footer">
+        <h1 class="container-center">about</h1>
+        <p class=" container-center">A simple app to find out weather your birth year is a leap year. A leap year is defined as a year, occurring once every four years, which has 366 days including 29 February as an intercalary day.</p>
+    </footer>
 </body>
 </html>
