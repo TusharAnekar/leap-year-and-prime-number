@@ -21,6 +21,5 @@ function LeapYear(yearOfBirth) {
 
 function clickHandler() {
     var inputLY = inputLeapYear.value;
-    fetch(LeapYear(inputLY))
-    .then( outputDiv.innerText = Response)
+    outputDiv.innerText= LeapYear(inputLY);
 }
