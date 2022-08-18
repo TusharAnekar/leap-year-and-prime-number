@@ -4,6 +4,10 @@
     --primary-color: #818cf8;
 }
 
+body {
+    margin: 0;
+}
+
 .container-center {
     margin: auto;
     max-width: 600px;
