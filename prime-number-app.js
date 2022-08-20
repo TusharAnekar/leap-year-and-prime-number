@@ -28,5 +28,11 @@ function primeNumber(dateOfBirth) {
 
 function clickHandlerPN() {
     var inputPN = inputPrimeNumber.value;
-    outputDiv.innerText = primeNumber(inputPN);
+
+    if (inputPN === "") {
+        outputDiv.innerText = "Please enter value in the field."
+    }
+    else {
+        outputDiv.innerText = primeNumber(inputPN);
+    }
 }

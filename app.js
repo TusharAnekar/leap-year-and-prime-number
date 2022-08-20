@@ -21,5 +21,11 @@ function LeapYear(yearOfBirth) {
 
 function clickHandler() {
     var inputLY = inputLeapYear.value;
-    outputDiv.innerText= LeapYear(inputLY);
+
+    if (inputLY === "") {
+      outputDiv.innerText = "Please enter value in the field."
+    }
+    else {
+      outputDiv.innerText= LeapYear(inputLY);
+    }
 }
